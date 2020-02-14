@@ -1,0 +1,2 @@
+#ignoring the bowline binary when built locally
+cmd/bowline/bowline

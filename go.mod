@@ -2,7 +2,8 @@ module github.com/CivicActions/bowline
 
 replace github.com/docker/docker => github.com/docker/engine v0.0.0-20180816081446-320063a2ad06
 
-replace github.com/docker/distribution v0.0.0-20180816081446-83389a148052 => github.com/docker/distribution v2.6.0-rc.1.0.20180327202408-83389a148052+incompatible //workaround based on https://tip.golang.org/doc/go1.13#version-validation
+//workaround based on https://tip.golang.org/doc/go1.13#version-validation
+replace github.com/docker/distribution v0.0.0-20180816081446-83389a148052 => github.com/docker/distribution v2.6.0-rc.1.0.20180327202408-83389a148052+incompatible
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
